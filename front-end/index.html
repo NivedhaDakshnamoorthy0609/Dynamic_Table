@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Dynamic Grid Table</title>
+</head>
+
+<body>
+  <div class="header">Dynamic Table Rendering</div>
+
+  <div class="container">
+    <div class="form-container">
+      <div class="input-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" />
+      </div>
+
+      <div class="input-group">
+        <label for="age">Age</label>
+        <input type="text" id="age" />
+      </div>
+
+      <div class="input-group">
+        <label for="address">Address</label>
+        <input type="text" id="address" />
+      </div>
+
+      <div class="div-button">
+        <div><button class="button-info" id="filterButton">Filter</button></div>
+        <div><button class="button-info" id="resetButton">Reset</button></div>
+      </div>
+    </div>
+
+    <div class="grid-table"></div>
+
+
+
+    <div id="page-label"></div>
+  </div>
+
+  <script type="module" src="./main.js"></script>
+</body>
+
+</html>
