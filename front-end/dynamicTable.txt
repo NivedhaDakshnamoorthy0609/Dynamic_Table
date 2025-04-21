@@ -1,0 +1,32 @@
+Things done so far. 
+
+Implementation                                                status 
+
+Data fectching from JSON Server                               Done 
+Sorting by clicking Column headers                            Done
+Filtering Based on Column Inputs                              Done
+Custom cell rendering based on Column type                    Done
+Colored Dots for Age (Green,Orange,Red)                       Done
+Reseting the entire Table                                     Done
+CSS-Based Layout and Styling                                  Done
+Reponsive for Both Web and Mobile                             Done
+Sorting supported for string, numbers, date and boolean       Done
+Throttling added                                              Done
+
+
+Self Review 
+
+Loading Data based on the viewport height                     Fixed
+Reusable DOM Elements for better performance                  Fixed
+Dynamic Column configuration via columns array                Fixed
+Have a Parent Component as GridComponent                      Fixed
+Passing Callback Functions to fetch the Data                  Fixed
+Minimized DOM updates by reusing rows                         Fixed
+Restructed Json, Index.html, style.css and grid-component.js  Fixed
+Removed unwanted , repeated and innerHTML codes               Fixed
+
+
+
+
+
+
